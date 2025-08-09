@@ -2,16 +2,15 @@
 using namespace std;
 
 int main() {
-    cout<<"enter cp: ";
-    int cp,sp;
-    cin>>cp>>sp;
-    if (sp-cp>0){
-        cout<<"profit";
-    }
-    if(sp-cp==0){
-        cout<<"breakeven";
+    int n;
+    cin>>n;
+    if (n>0 && n%3==0 || n%5==0){
+        cout<<"yes it is ";
+    
     }
     else{
-        cout<<"loss";
+        cout<<"fuck you";
     }
-}
+
+
+    }
